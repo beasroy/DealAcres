@@ -2,32 +2,76 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.font-normal {
+  @apply text-sm md:text-base;
+}
+.font-heading {
+  @apply font-medium md:font-bold lg:text-3xl text-xl uppercase;
+}
+.custom-border{
+  @apply border-t-4 border-r-2 border-l-2 border-[#c7e3f6] border-b-4
+}
+.custom-border-2{
+  @apply border-t-2 border-r-4 border-l-4 border-[#cde6f7] border-b-2
+}
+.custom-border-3{
+  @apply border-4 border-[#cde6f7]
+}
+.input-checkbox {
+  height: 1.50rem; 
+  width: 1.50rem; 
+}
+.gradient-shadow {
+  position: relative;
+  background-color: #ffffff; /* Set the background color of your element */
+  overflow: hidden;
+
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.gradient-shadow::before,
+.gradient-shadow::after {
+  content: "";
+  position: absolute;
+  background: linear-gradient(rgba(147, 210, 242, 0.295), transparent);
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.gradient-shadow::before {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10px; /* Adjust the height of the shadow */
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.gradient-shadow::after {
+  top: 0;
+  left: 0;
+  width: 10px; /* Adjust the width of the shadow */
+  height: 100%;
+}
+
+.shadow-gradient {
+  position: relative;
+  background-color: #ffffff; /* Set the background color of your element */
+  overflow: hidden;
+}
+
+.shadow-gradient::before,
+.shadow-gradient::after {
+  content: "";
+  position: absolute;
+  background: linear-gradient(rgba(147, 210, 242, 0.295), transparent);
+}
+
+.shadow-gradient::before {
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 10px; /* Adjust the height of the shadow */
+}
+
+.shadow-gradient::after {
+  right: 0;
+  bottom: 0;
+  width: 10px; /* Adjust the width of the shadow */
+  height: 100%;
 }
