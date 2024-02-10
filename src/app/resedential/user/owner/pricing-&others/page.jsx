@@ -89,9 +89,9 @@ const Page = () => {
                     <h1 className="font-medium md:font-bold md:text-2xl text-xl my-2">
                     Property Facing
                     </h1>
-                    {propertyFacing.map((face)=>(
+                    {propertyFacing.map((face,idx)=>(
                         
-                        <Button heading={face}/>   
+                        <Button heading={face} key={idx}/>   
                                       
                     ))}
                     <h1 className="font-medium md:font-bold md:text-2xl text-xl my-2">
@@ -115,7 +115,7 @@ const Page = () => {
             <h1 className=" font-heading">GDPR Agreement *</h1>
             <div className="flex flex-row items-center my-2 gap-2">
                 <input type="checkbox" className="input-checkbox " />
-                    <p className="text-xl">I agree to this website "Deal Acres" storing my submitted information; see more details below.</p>   
+                    <p className="text-xl">I agree to this website &quot;Deal Acres&quot; storing my submitted information; see more details below.</p>   
             </div>
             <div className="bg-[#e1dff8] p-2 rounded-lg mb-8">
                 <p>The data based on a search query on Deal Acres has been made available for information/advertisement purposes. No warranty is implied for its accuracy. Nothing contained herein will be deemed to constitute any sort of legal advice, solicitation, marketing, offer of sale, an invitation to offer, or an invitation to get by the developer/builder or any other entity. You are advised to visit the relevant RERA website. And get more information about the builder and property directly. Before deciding on the project content displayed on dealacres.com. If you have any queries contact Deal Acres at contact@dealacres.com.</p>
