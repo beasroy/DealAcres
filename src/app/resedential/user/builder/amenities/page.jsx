@@ -34,9 +34,9 @@ const Page = () => {
                     <h1 className="font-medium md:font-bold md:text-2xl text-xl my-2">
                         Property Facing
                     </h1>
-                    {propertyFacing.map((face) => (
+                    {propertyFacing.map((face,idx) => (
 
-                        <Button heading={face} />
+                        <Button heading={face} key={idx}/>
 
                     ))}
                     <h1 className="font-medium md:font-bold md:text-2xl text-xl my-2">
