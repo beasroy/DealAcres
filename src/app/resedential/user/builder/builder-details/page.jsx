@@ -7,7 +7,7 @@ import { useState } from 'react';
 import ContactNumber from '@/components/ContactNumber';
 import FeedbackModal from "@/components/FeedbackModal";
 import PostModal from '@/components/PostModal';
-const page = () => {
+const Page = () => {
     const [isPostModalOpen, setIsPostModalOpen] = useState(false);
     const [isFeedbackModalOpen, setIsFeedbackModalOpen] = useState(false);
 
@@ -105,4 +105,4 @@ const page = () => {
     )
 }
 
-export default page
+export default Page

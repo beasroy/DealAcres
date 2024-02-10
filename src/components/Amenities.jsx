@@ -22,8 +22,8 @@ const AmenitiesList = () => {
     <div className="flex">
       
       <div className="flex flex-col mr-5">
-        {firstColumn.map((amenity) => (
-          <div key={amenity} className="flex items-center mb-2">
+        {firstColumn.map((amenity,idx) => (
+          <div key={idx} className="flex items-center mb-2">
             <input
               type="checkbox"
               checked={checkedItems[amenity] || false}
