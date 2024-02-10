@@ -21,6 +21,10 @@
   height: 1.50rem; 
   width: 1.50rem; 
 }
+.input-checkbox-2 {
+  height: 1.25rem; 
+  width: 1.25rem; 
+}
 .gradient-shadow {
   position: relative;
   background-color: #ffffff; /* Set the background color of your element */

@@ -1,4 +1,4 @@
-
+'use client'
 import Navigation from '@/components/Navigation/Navigation';
 import Image from 'next/image';
 

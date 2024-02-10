@@ -51,6 +51,35 @@ const Page = () => {
                     </h1>
                     <input type="text" className="custom-border-2 px-2 py-3 rounded-xl w-[80%] mt-2" placeholder="Expected Price" />
                     <input type="text" className="custom-border-2 px-2 py-3 rounded-xl w-[60%] mt-2" placeholder="Price per Sq.Yd" />
+                    <div className='flex flex-wrap gap-4 my-6'>
+            <div className='flex flex-row items-center gap-2'>
+              <input
+                type="checkbox"
+                width={12}
+                height={24}
+                className='input-checkbox'
+              />
+              <p>All Inclusive Price</p>
+            </div>
+            <div className='flex flex-row items-center gap-2'>
+              <input
+                type="checkbox"
+                width={12}
+                height={24}
+                className='input-checkbox'
+              />
+              <p>Price Negoiable</p>
+            </div>
+            <div className='flex flex-row items-center gap-2'>
+              <input
+                type="checkbox"
+                width={12}
+                height={24}
+                className='input-checkbox'
+              />
+              <p>Tax and Govt. Charges Excluded</p>
+            </div>
+          </div>
                     <h1 className="font-medium md:font-bold md:text-2xl text-xl my-4">Add Amenties and Features</h1>
                     <AmenitiesList />
                     <div className="flex flex-row items-center">

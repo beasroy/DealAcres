@@ -10,7 +10,7 @@ const Navigation = () => {
     'location-details',
     'property-profile',
     'photos',
-    'pricing-&orders',
+    'pricing-&others',
   
   ];
 

@@ -34,7 +34,7 @@ const Page = () => {
          <FileDropzone onFilesDrop={handleFilesDrop} description={'Uploaded photo is maximum is of 2MB'}/>
         <p className='text-sm mb-5'>At least add 3 images of your property for good visibility and high response.</p>
          <Link href={'pricing'}>
-         <button className='w-full bg-blue-600 rounded-md px-8 py-3 font-bold text-white my-3'>Continue</button>  
+         <button className='w-full bg-blue-600 rounded-md px-8 py-3 font-bold text-white my-3 hover:bg-white hover:text-blue-600 hover:border hover:border-blue-600'>Continue</button>  
          </Link>
      </div>
  </div>

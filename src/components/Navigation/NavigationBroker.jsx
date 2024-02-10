@@ -26,7 +26,7 @@ const NavigationBroker = () => {
   console.log(xy)
   if(xy.includes('amenities')){
   flag=4;
-  }else if(xy.includes('price')){
+  }else if(xy.includes('pricing')){
     flag=3;
   }else if(xy.includes('photos')){
     flag=2;

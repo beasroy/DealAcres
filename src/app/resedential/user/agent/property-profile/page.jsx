@@ -143,14 +143,14 @@ const Page = () => {
 
                         {isExpanded && [3, 4].map((index) => (
                             <button key={index} className='custom-border h-full px-2 rounded-lg mr-2'>
-                                {`${index}-${index + 1} years`}
+                                {`${(index - 1) * 5}-${index * 5} years`}
                             </button>
                         ))}
                     </div>
 
 
                     <Link href={'photos'}>
-                        <button className='w-full bg-blue-600 rounded-xl px-8 py-3 font-bold text-white mt-5 mb-10'>Continue</button>
+                        <button className='w-full bg-blue-600 rounded-xl px-8 py-3 font-bold text-white mt-5 mb-10 hover:bg-white hover:text-blue-600 hover:border hover:border-blue-600'>Continue</button>
                     </Link>
                 </div>
                 <div className='flex flex-col gap-5'>

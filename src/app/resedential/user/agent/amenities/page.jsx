@@ -50,12 +50,8 @@ const Page = () => {
             <div className='flex flex-col md:flex-row px-4 items-start justify-center gap-10 md:gap-20 container mx-auto my-10 overflow-auto'>
 
                 <div className='h-full md:w-[450px] rounded-xl p-5 border-t-4 border-r-2 border-l-2 border-[#dcf0fd] border-b-4'>
-                    <h1 className="font-medium md:font-bold md:text-2xl text-xl">
-                        Price Details
-                    </h1>
-                    <input type="text" className="custom-border-2 px-2 py-3 rounded-xl w-[80%] mt-2" placeholder="Expected Price" />
-                    <input type="text" className="custom-border-2 px-2 py-3 rounded-xl w-[60%] mt-2" placeholder="Price per Sq.Yd" />
-                    <h1 className="font-medium md:font-bold md:text-2xl text-xl my-4">Add Amenties and Features</h1>
+                    
+                    <h1 className="font-medium md:font-bold md:text-2xl text-xl mb-4">Add Amenties and Features</h1>
                     <AmenitiesList />
                     <div className="flex flex-row items-center">
                         <p className="text-xl text-blue-600">More</p>
@@ -95,7 +91,7 @@ const Page = () => {
             <div className="bg-[#e1dff8] p-2 rounded-lg mb-8">
                 <p>The data based on a search query on Deal Acres has been made available for information/advertisement purposes. No warranty is implied for its accuracy. Nothing contained herein will be deemed to constitute any sort of legal advice, solicitation, marketing, offer of sale, an invitation to offer, or an invitation to get by the developer/builder or any other entity. You are advised to visit the relevant RERA website. And get more information about the builder and property directly. Before deciding on the project content displayed on dealacres.com. If you have any queries contact Deal Acres at contact@dealacres.com.</p>
             </div>
-            <button   onClick={openPostModal} className='w-full bg-blue-600 rounded-xl px-8 py-3 font-bold text-white mt-5 mb-10'>Post Property</button>
+            <button   onClick={openPostModal} className='w-full bg-blue-600 rounded-xl px-8 py-3 font-bold text-white hover:bg-white hover:text-blue-600 hover:border hover:border-blue-600 mt-5 mb-10'>Post Property</button>
             <PostModal isOpen={isPostModalOpen}  onSubmit={handlePostSubmit} />
             <FeedbackModal isOpen={isFeedbackModalOpen} onClose={closeFeedbackModal} onSubmit={handleFeedbackSubmit}/>
 

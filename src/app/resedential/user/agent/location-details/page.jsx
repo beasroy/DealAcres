@@ -32,7 +32,7 @@ const Page = () => {
          <input placeholder='House No. (optional)' type='text' className='py-4 px-2 rounded-lg w-full mb-2 border-t-4 border-r-2 border-l-2 border-[#c7deee] border-b-4'/>
          
          <Link href={'property-profile'}>
-         <button className='w-full bg-blue-600 rounded-md px-8 py-3 font-bold text-white my-3'>Continue</button>
+         <button className='w-full bg-blue-600 rounded-md px-8 py-3 font-bold text-white my-3 hover:bg-white hover:text-blue-600 hover:border hover:border-blue-600'>Continue</button>
          
          </Link>
      </div>

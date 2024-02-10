@@ -40,7 +40,7 @@ const Info = () => {
       </div>
       <p className='w-[85%] text-xl mb-10'>Please choose correctly, if you want to change in the future, it done through profile section</p>
       <Link href={getDynamicLink()}>
-        <button className='w-full bg-blue-600 rounded-xl px-8 py-3 font-bold text-white mb-16'>Continue</button>
+        <button className='w-full bg-blue-600 rounded-xl px-8 py-3 font-bold text-white mb-16 hover:bg-white hover:text-blue-600 hover:border hover:border-blue-600'>Continue</button>
       </Link>
     </div>
 

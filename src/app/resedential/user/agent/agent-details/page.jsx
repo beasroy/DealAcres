@@ -38,7 +38,7 @@ const page = () => {
                         <ContactNumber />
 
                         <Link href={'location-details'}>
-                            <button className='w-full bg-blue-600 rounded-md px-8 py-3 font-bold text-white my-3'>Continue</button>
+                            <button className='w-full bg-blue-600 rounded-md px-8 py-3 font-bold text-white my-3 hover:bg-white hover:text-blue-600 hover:border hover:border-blue-600'>Continue</button>
                         </Link>
                     </div>
                 </div>
