@@ -20,5 +20,12 @@ const Button = ({ heading, onClick ,hashClick}) => {
     </button>
   );
 };
+export default Button
 
-export default Button;
+
+
+
+
+
+
+
