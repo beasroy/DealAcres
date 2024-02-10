@@ -34,13 +34,13 @@ const Info = () => {
         To Continue Please let us Know what you are?
       </h1>
       <div className='flex flex-row items-center justify-between my-10'>
-        <Button heading={'An Owner'}onClick={() => handleOptionSelect('owner')}> </Button>
-        <Button heading={'A Agent'}onClick={() => handleOptionSelect('agent')}> </Button>
-        <Button heading={'A Builder'}onClick={() => handleOptionSelect('builder')}> </Button>
+        <Button heading={'An Owner'}onClick={() => handleOptionSelect('owner')} hashClick={true}> </Button>
+        <Button heading={'A Agent'}onClick={() => handleOptionSelect('agent')} hashClick={true}> </Button>
+        <Button heading={'A Builder'}onClick={() => handleOptionSelect('builder')} hashClick={true}> </Button>
       </div>
       <p className='w-[85%] text-xl mb-10'>Please choose correctly, if you want to change in the future, it done through profile section</p>
       <Link href={getDynamicLink()}>
-        <button className='w-full bg-blue-600 rounded-xl px-8 py-3 font-bold text-white mb-16 hover:bg-white hover:text-blue-600 hover:border hover:border-blue-600'>Continue</button>
+        <button className='w-full bg-blue-600 rounded-xl px-8 py-3 font-bold text-white mb-16 '>Continue</button>
       </Link>
     </div>
 

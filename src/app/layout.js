@@ -1,7 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header/Header";
-
+import { Analytics } from '@vercel/analytics/react';
 
 const inter = Inter({ subsets: ["latin"], weight: ['400', '500', '700', '900'], });
 
@@ -17,6 +17,7 @@ export default function RootLayout({ children }) {
         <main className='font-normal'>
           <Header />
           {children}
+          <Analytics />
      
         </main>
       </body>
