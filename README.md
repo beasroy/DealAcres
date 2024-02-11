@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Real Estate Agent Website
+
+Welcome to the Real Estate Agent Website project built with Next.js and Tailwind CSS.
+
+## Overview
+
+This project serves as a platform for real estate agents, owners, and users to interact and find the property that suits their needs. It provides a seamless experience for users to navigate through different property types, such as residential and commercial.
 
 ## Getting Started
 
-First, run the development server:
+1. **Clone the Repository:**
 
-```bash
+   ```bash
+   git clone https://github.com/your-username/real-estate-agent-website.git
+   cd real-estate-agent-website
+Install Dependencies:
+
+bash
+Copy code
+npm install
+Run the Development Server:
+
+bash
+Copy code
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The project will be available at http://localhost:3000.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Workflow**
+The project follows a user-friendly workflow to assist users in finding their desired properties.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+**User Login:**
+  Users can access the platform by clicking on the property type they are interested in.
+  Click on the "Start Now" button to initiate the login process.
+**Residential Properties:**
+For users looking for residential properties, click on the "Residential" section.
+Click on "Start Now" to explore available residential properties.
+**Commercial Properties:**
+Users interested in commercial properties should click on the "Commercial" section.
+Click on "Start Now" to explore available commercial properties.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+3. **Deployed Website:**
+   [https://deal-acres-assignment-eight.vercel.app/]
