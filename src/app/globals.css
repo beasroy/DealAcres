@@ -36,10 +36,12 @@
   overflow: hidden;
 }
 
+
 .cards-wrapper {
   display: flex;
   gap: 16px;
   transition: transform 0.5s ease-in-out;
+  overflow: auto; 
 }
 
 .card {
@@ -64,12 +66,13 @@
   border-radius: 50%;
   background-color: white;
 }
-.card.visible {
-  display: block;
-}
+@media (max-width: 600px) {
+  
 
-.card.hidden {
-  display: none;
+  .cards-wrapper > * {
+    flex: 0 0 50%; 
+    max-width: 50%; 
+  }
 }
 
 

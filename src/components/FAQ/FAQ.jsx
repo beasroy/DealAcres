@@ -16,7 +16,7 @@ const FAQ = () => {
 
   return (
     <div className="mx-auto container pb-20 h-full lg:w-4/5 px-2 md:px-10">
-      <h2 className="font-bold md:text-3xl text-xl mb-8">Frequently Asked Questions</h2>
+      <h2 className="font-bold md:text-3xl text-2xl mb-8 text-center lg:text-start">Frequently Asked Questions</h2>
       <div >
         {faqData.map((item, index) => (
           <div key={index} className="bg-white py-2 rounded-lg ">
