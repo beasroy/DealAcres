@@ -4,7 +4,7 @@ import Why_Choose from '@/components/Why_Choose/Why_Choose'
 import About from '@/components/About/About'
 import FAQ from '@/components/FAQ/FAQ'
 import Footer from '@/components/Footer/Footer'
-import InterestingReads from '@/components/InterestingReads/InterestingReads'
+import InterestingReads from '@/components/InterestingReads/InterestingReads.jsx'
 
 const Home = () => {
   return (
