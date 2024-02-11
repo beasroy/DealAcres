@@ -31,9 +31,13 @@ The project follows a user-friendly workflow to assist users in finding their de
 **User Login:**
   Users can access the platform by clicking on the property type they are interested in.
   Click on the "Start Now" button to initiate the login process.
+
+  
 **Residential Properties:**
 For users looking for residential properties, click on the "Residential" section.
 Click on "Start Now" to explore available residential properties.
+
+
 **Commercial Properties:**
 Users interested in commercial properties should click on the "Commercial" section.
 Click on "Start Now" to explore available commercial properties.
