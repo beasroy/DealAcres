@@ -71,9 +71,7 @@ const Page = () => {
                         <p className='text-md font-semibold text-gray-500 mb-2'>Contact Details</p>
                         <ContactNumber />
 
-                        <Link href={'location-details'}>
-                            <button className='w-full bg-blue-600 rounded-md px-8 py-3 font-bold text-white my-3'>Continue</button>
-                        </Link>
+
                     </div>
                 </div>
                 <div className='h-full w-[400px] rounded-xl bg-[#c9e2f3] p-4 flex flex-col items-center'>

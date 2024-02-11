@@ -44,7 +44,7 @@ const Herosection = () => {
     
     return (
         <section className='flex flex-col md:flex-row px-4 items-start justify-center gap-10 container mx-auto mt-10 overflow-auto'>
-            <div className='h-full md:mt-20 rounded-xl p-4 custom-border'>
+            <div className='h-full md:mt-20 rounded-xl p-4 custom-border-hero'>
                 <h1 className="font-heading my-2">
                     Post Your Property for free
                 </h1>
@@ -111,9 +111,11 @@ const Herosection = () => {
                 <p className='py-2 font-bold'>
                     Add Contact Details
                 </p>
+                
                 <input className='custom-border-2 px-4 py-2 rounded-xl' />
+                <p className='text-xs mt-5 pb-1'>Are you a Registered user?<span className='text-blue-500'>Login</span> </p>
                 <Link href={generateDynamicPath()}>
-                    <button className='w-full bg-blue-600 rounded-xl px-8 py-3 font-bold text-white mt-5 mb-10 hover:bg-white hover:text-blue-600 hover:border hover:border-blue-600'>Start Now</button>
+                    <button className='w-full bg-blue-600 rounded-xl px-8 py-3 font-bold text-white  mb-10 hover:bg-white hover:text-blue-600 hover:border hover:border-blue-600'>Start Now</button>
                 </Link>
             </div>
             <div className='h-full w-[400px] rounded-xl bg-[#e9f6fe] p-4 flex flex-col items-center'>

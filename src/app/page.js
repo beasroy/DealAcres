@@ -4,6 +4,7 @@ import Why_Choose from '@/components/Why_Choose/Why_Choose'
 import About from '@/components/About/About'
 import FAQ from '@/components/FAQ/FAQ'
 import Footer from '@/components/Footer/Footer'
+import InterestingReads from '@/components/InterestingReads/InterestingReads'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
     <Why_Choose />
     <About />
     <FAQ />
+    <InterestingReads />
     <Footer />
     </>
   )

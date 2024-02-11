@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .font-normal {
   @apply text-sm md:text-base;
 }
@@ -17,6 +18,9 @@
 .custom-border-3{
   @apply border-4 border-[#cde6f7]
 }
+.custom-border-hero{
+  @apply border-t-8 border-l-8 border-b-2 border-[#c7e3f6]
+}
 .input-checkbox {
   height: 1.50rem; 
   width: 1.50rem; 
@@ -25,57 +29,47 @@
   height: 1.25rem; 
   width: 1.25rem; 
 }
-.gradient-shadow {
+.carousel-container {
   position: relative;
-  background-color: #ffffff; /* Set the background color of your element */
-  overflow: hidden;
-
-}
-
-.gradient-shadow::before,
-.gradient-shadow::after {
-  content: "";
-  position: absolute;
-  background: linear-gradient(rgba(147, 210, 242, 0.295), transparent);
-}
-
-.gradient-shadow::before {
-  top: 0;
-  left: 0;
   width: 100%;
-  height: 10px; /* Adjust the height of the shadow */
-}
-
-.gradient-shadow::after {
-  top: 0;
-  left: 0;
-  width: 10px; /* Adjust the width of the shadow */
-  height: 100%;
-}
-
-.shadow-gradient {
-  position: relative;
-  background-color: #ffffff; /* Set the background color of your element */
+  margin: auto;
   overflow: hidden;
 }
 
-.shadow-gradient::before,
-.shadow-gradient::after {
-  content: "";
+.cards-wrapper {
+  display: flex;
+  gap: 16px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.card {
+  width: 200px;
+  height: 150px;
+  background-color: #e0e0e0;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.arrow {
   position: absolute;
-  background: linear-gradient(rgba(147, 210, 242, 0.295), transparent);
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+  color: #df1010;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: white;
+}
+.card.visible {
+  display: block;
 }
 
-.shadow-gradient::before {
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  height: 10px; /* Adjust the height of the shadow */
+.card.hidden {
+  display: none;
 }
 
-.shadow-gradient::after {
-  right: 0;
-  bottom: 0;
-  width: 10px; /* Adjust the width of the shadow */
-  height: 100%;
-}
+
